@@ -1,0 +1,248 @@
+body{
+	margin-top: 20px;
+	font-family: Arial;
+	background: #e2edf1;
+	font-size: 10pt;
+	color: #444;
+	vertical-align: middle
+}
+
+/* transition animations */
+a, input, textarea, select{
+	transition: background 0.2s, color 0.2s;
+	-moz-transition: background 0.2s, color 0.2s; /* Firefox 4 */
+	-webkit-transition: background 0.2s, color 0.2s; /* Safari and Chrome */
+	-o-transition: background 0.2s, color 0.2s /* Opera */
+}
+a {
+	color: #039
+}
+
+td{
+	vertical-align: top
+}
+#t_logo{
+	background: url('../../resources/images/logo.png') no-repeat;
+	width: 260px;
+	height: 49px	
+}
+input[type^="text"]{
+	width: 210px;
+	border: 1px solid #666;
+	border-left: 2px solid #666;
+	border-top: 2px solid #666;
+	padding: 2px;
+	border-radius: 3px
+}
+input[type^="text"]:focus{
+	background: #e6f6fb
+}
+input[type^="submit"]{
+	cursor: pointer
+}
+#m_body{
+	width: 950px;
+	padding: 5px;
+	text-align: left;
+	margin-top: 15px
+}
+#l_menu A{
+	color: #039;
+	text-decoration: none
+}
+#l_menu A:hover{
+	text-decoration: underline
+}
+#m_table{
+	box-shadow: 0px 0px 4px #8ab2bf;
+	background: #FFF;
+	border-radius: 4px;
+	padding: 10px;
+	padding-bottom: 20px
+}
+#m_table h2{
+	font-size: 11pt;
+	margin: 0
+}
+p{
+	margin-top: 0;
+	margin-bottom: 10px
+}
+#desc A{
+	background: #bcdca7;
+	border-radius: 3px;
+	padding: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #20400b;
+	text-decoration: none
+}
+#desc A:hover{
+	background: #38651a;
+	color: #FFF
+}
+#data_table th{
+	background: #999;
+	color: #FFF
+}
+#data_table A{
+	color: #369
+}
+#data_table A:hover{
+	color: #039
+}
+#data_table A:visited{
+	color: #06C
+}
+.data_table_upload{
+	font-size: 8pt
+}
+#success_notice{
+	border-radius: 4px;
+	margin-bottom: 15px;
+	font-size: 8pt;
+	padding: 3px;
+	background: #060;
+	color: #FFF
+}
+
+
+
+/* Stylized search field and button */
+
+
+ /* Form wrapper styling */
+.search_box {
+width: 164px;
+margin: 0;
+box-shadow: 0 1px 1px rgba(0, 0, 0, .4) inset, 0 1px 0 rgba(255, 255, 255, .2);
+}
+ 
+/* Form text input */
+ 
+.search_box input {
+width: 113px;
+height: 8px;
+padding: 10px 5px;
+float: left;
+border: 1px solid #EEE;
+border-right: 0;
+background-color: #EEE;
+border-radius: 5px 0 0 5px;
+}
+ 
+.search_box input:focus {
+    outline: 0;
+    background: #fff;
+    border: 1px solid #AAA;
+    box-shadow: inset 0 0 5px #DDD;
+    width: 113px;
+    height: 8px;
+    border-right: 0
+}
+ 
+.search_box input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
+}
+ 
+.search_box input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+ 
+.search_box input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}    
+ 
+/* Form submit button */
+.search_box button {
+overflow: visible;
+position: relative;
+float: right;
+border: 0;
+padding: 0;
+cursor: pointer;
+height: 30px;
+width: 40px;
+color: white;
+text-transform: uppercase;
+background: #87acc5;
+border-radius: 0 5px 5px 0;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+}
+   
+.search_box button:hover{     
+    background: #ff7200;
+}   
+   
+.search_box button:active,
+.search_box button:focus{   
+    background: #e85200;
+    outline: 0;   
+}
+ 
+.search_box button:before { /* left arrow */
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #87acc5 transparent;
+    top: 7px;
+    left: -6px;
+}
+
+.search_box button:hover:before{
+    border-right-color: #ff7200;
+}
+ 
+.search_box button:focus:before,
+.search_box button:active:before{
+        border-right-color: #e85200;
+}      
+ 
+.search_box button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+    border: 0;
+    padding: 0;
+}    
+/* End stylized search field and button */
+
+
+
+
+#news{
+	margin-top: 35px;
+	padding-top: 20px
+}
+.news_box{
+	float: left;
+	width: 48%;
+}
+.news_title{
+	background: #999;
+	color: #FFF;
+	padding: 2px	
+}
+#news ul{
+	margin: 0;
+	font-size: 8pt;
+	padding: 0;
+}
+#news li::marker{
+	color: #333;	
+}
+#news li{
+	padding: 2px;
+	list-style: square;
+	margin-left: 10px
+}
+#news li a{
+	color: #039;
+}
+#news li a:hover{
+	color: #069
+}

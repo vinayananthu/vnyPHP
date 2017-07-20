@@ -1,0 +1,311 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	margin: 0;
+	background: url('https://forms.latech.edu/routing/i/bg_body.jpg');
+	background-attachment: fixed
+}
+
+/* transition animations */
+a, input, textarea, select{
+	transition: background 0.2s, color 0.2s;
+	-moz-transition: background 0.2s, color 0.2s; /* Firefox 4 */
+	-webkit-transition: background 0.2s, color 0.2s; /* Safari and Chrome */
+	-o-transition: background 0.2s, color 0.2s /* Opera */
+}
+#success_notice{
+	border-radius: 4px;
+	margin-bottom: 15px;
+	font-size: 8pt;
+	padding: 3px;
+	background: #990000;
+	color: #FFF
+}
+#main_div{
+	padding: 10px;
+	padding-top: 50px;
+	background: #FFF;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 5px #222;
+	width: 920px;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.div_preview{
+	font-size: 10pt !important;
+	color: #000 !important;
+	margin-right: 2px;
+	border-radius: 3px;
+	padding:3px;
+	background-color: #d7edf9;
+	border: 2px solid #3E4A6E;
+	border-right: 1px solid #3E4A6E;
+    border-bottom: 1px solid #3E4A6E;
+}
+.form_preview_empty{
+	border: 2px solid #d47a7a;
+	border-bottom: 1px solid #d47a7a;
+	border-right: 1px solid #d47a7a;
+	border-radius: 3px;
+	box-shadow: inset 1px 1px 2px #d87a7a;
+	font-size: 10pt !important;
+	background: #f8baba;
+	padding: 3px;
+	margin-right: 2px;
+	display: block;
+	min-height: 15px;
+}
+.darker_row{
+	background: #DDD;
+	margin-top: 10px;
+	margin-bottom: 5px
+}
+.addmore_btn{
+	padding: 5px;
+	text-align:left;
+}
+
+.section_1{
+    width: 840px;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 10pt;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #FFF	
+}
+.section_title{
+	color: #7A0000;
+	font-size: 13pt;
+	font-variant: small-caps;
+	font-weight: bold
+}
+#fa_verify{
+	color: #990000;
+	font-size: 8pt;
+	margin-bottom: 10px
+}
+h{
+	font-size: 12pt;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	width: 840px;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: bold;
+	text-align: center;
+	color: #e8f8fd
+}
+
+input[type^="text"], select{
+	color: #1a3a4e;
+	font-size: 11pt;
+	padding: 2px;
+	width: 95%;
+	border-radius: 5px;
+	border: 1px solid #444;
+	border-left: 2px solid #444;
+	border-top: 2px solid #444	
+}
+
+input[type^="text"]:focus, select:focus{
+	background: #e8ffe2
+}
+
+input[type^="submit"], input[type^="button"]{
+	cursor: pointer;
+	border: 0;
+	background: #ff7800;
+	box-shadow: 0px 1px 2px #999;
+	color: #FFF
+}
+input[type^="submit"]:hover, input[type^="button"]:hover{
+	background: #ca491e;
+}
+
+table{
+	font-size: 10pt;
+}
+.section_box{
+	font-size: 15pt;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 10px;
+	border-radius: 10px;
+	background: #EEE
+}
+textarea{
+	color: #1a3a4e;
+	width: 875px;
+	max-width: 875px;
+	height: 50px;
+	padding: 3px;
+	border-radius: 5px;
+	border: 1px solid #444;
+	border-left: 2px solid #444;
+	border-top: 2px solid #444
+}
+textarea:focus{
+	background: #e8ffe2
+}
+th{
+	font-weight: normal;
+	background: #666;
+	color: #FFF
+}
+.th_small ,#req_sign_tb,#timeline,#pi1_tb td div{
+margin-top: 2px;
+font-size: 8pt;
+color: #444
+}
+
+#req_sign_tb b{
+	font-size: 10pt;
+	color: #000
+}
+/* Edit File Display */
+.edit_file_display{
+	margin-top: 5px;
+	font-size: 8pt;
+	padding: 3px;
+	border-radius: 2px;
+	background: #FFF;
+	border: 1px solid #AAA
+}
+.edit_file_display_action A{
+	float: right;
+	font-size: 8pt;
+	text-decoration: none
+}
+.edit_file_display_action A:hover{
+	text-decoration: underline
+}
+
+/* top scroller start */
+#t_scroller {
+    background: #092c4b;
+    color: #FFF;
+	font-size: 12pt;
+	z-index: 1;
+	box-shadow: 2px 2px 4px #003;
+    top: 0;
+    width: 100%;
+	position: fixed;
+}
+#t_scroller a{
+	color: #d4e9f5;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10pt;
+	padding: 3px;
+	padding-right: 8px;
+	padding-left: 8px;
+	text-decoration: none;
+	border-radius: 2px;
+	background: #30739a
+}
+#t_scroller a:hover{
+	background: #d8e9f9;
+	color: #154570
+}
+#t_scroller #logout{
+	background: #8b1e16
+}
+#t_scroller #logout:hover{
+	background: #ffd7d5;
+	color: #900
+}
+/* top scroller ends */
+#header_logo{
+	text-align: center;
+	margin-top: 5px;
+}
+#instructions {
+	font-size: 8pt;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #555
+}
+
+/* printer friendly */
+#printer{
+	font-size: 10pt;
+	text-align: right;
+	margin-top: 3px;
+	margin-bottom: 3px
+}
+
+#printer a{
+	text-decoration: none;
+	color: #039;
+	background: url('https://forms.latech.edu/routing/i/ico-printer.png') no-repeat;
+	background-position: left center;
+	padding-left: 20px
+}
+#printer a:hover{
+	text-decoration: underline
+}
+/* end printer friendly */
+
+/* Start remarks count */
+#remarks_notification{
+	float: left;
+	background: #090;
+	text-decoration: none;
+	border-radius: 0 5px 5px 0;
+	font-size: 10pt;
+	color: #FFF;
+	padding: 2px
+}
+#remarks_notification:hover{
+	background: #060
+}
+#remarks{
+	padding: 10px;
+	font-size: 10pt
+}
+
+/* End remarks count */
+
+/* Popup */
+#tw{
+display: none; width: 100%; height: 100%; position: fixed; left: 0; top: 0; z-index: 1
+}
+#wbg{
+width: 100%; height: 100%; background-color: #000; position: absolute
+}
+#wc{
+background-color: #fff; border: 5px solid #000; position: absolute; left: 50%; width: 430px; margin-left: -215px; margin-top: 90px; padding: 5px; height: 500px; text-align: left; border-radius: 10px; box-shadow: 0 0 8px #222
+}
+#wcd{
+font-size: 8pt; color: #555; font-weight: normal
+}
+#wct{
+color: #039;
+}
+#wctx{
+font-family: arial; padding: 3px; font-size: 14pt; border: 1px solid #666; border-left: 2px solid #666; border-top: 2px solid #666; width: 235px; height: 22px
+}
+#wcbt{
+height: 31px; width: 75px; border: 0; font-family: arial; font-size: 11pt; color: #fff; font-weight: bold; cursor: pointer
+}/* End Popup */
+
+/* Scroll to top */
+.scrollToTop{
+	padding:5px; 
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	font-size: 8pt;
+	background: #1163bf;
+	color: #FFF;
+	box-shadow: 1px 1px 3px #003;
+	text-decoration: none;
+	position:fixed;
+	bottom:0px;
+	right:40px;
+	display:none;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+/* Scroll to top ends */
